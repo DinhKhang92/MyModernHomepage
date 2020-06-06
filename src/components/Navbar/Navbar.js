@@ -10,9 +10,7 @@ function Navbar(props){
                 <div className="navbar__menu-icon-line"></div>
                 <div className="navbar__menu-icon-line"></div>
             </div>
-            <div className="navbar__logo">
-                Khang Dinh
-            </div>
+            <div className="navbar__logo"></div>
         </header>
     )
 }
