@@ -10,28 +10,6 @@ function Skills(){
                 Skills
             </h3>
             <div className="skills__card">
-                <div className="skills__card-icon web-development"></div>
-                <h3 className="skills__card-title">Web Development</h3>
-                <ul className="skills__card-skills">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Responsive Design</li>
-                </ul>
-            </div>
-            <div className="skills__card">
-                <div className="skills__card-icon app-development"></div>
-                <h3 className="skills__card-title">App Development</h3>
-                <ul className="skills__card-skills">
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                    <li>JSON</li>
-                    <li>NoSQL</li>
-                    <li>Google Firebase</li>
-                </ul>
-            </div>
-            <div className="skills__card">
                 <div className="skills__card-icon desktop-applications"></div>
                 <h3 className="skills__card-title">Desktop Applications</h3>
                 <ul className="skills__card-skills">
@@ -52,6 +30,28 @@ function Skills(){
                     <li>scikit-learn</li>
                     <li>pandas</li>
                     <li>Deep Learning</li>
+                </ul>
+            </div>
+            <div className="skills__card">
+                <div className="skills__card-icon app-development"></div>
+                <h3 className="skills__card-title">App Development</h3>
+                <ul className="skills__card-skills">
+                    <li>Flutter</li>
+                    <li>Dart</li>
+                    <li>JSON</li>
+                    <li>NoSQL</li>
+                    <li>Google Firebase</li>
+                </ul>
+            </div>
+            <div className="skills__card">
+                <div className="skills__card-icon web-development"></div>
+                <h3 className="skills__card-title">Web Development</h3>
+                <ul className="skills__card-skills">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Responsive Design</li>
                 </ul>
             </div>
         </div>
