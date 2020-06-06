@@ -48,6 +48,20 @@
     background-position: center;
 }
 
+.tradedex{
+    background: url("./assets/tradedex.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage{
+    background: url("./assets/homepage.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .portfolio__card-skilltype{
     opacity: 0.7;
     font-size: 14px;

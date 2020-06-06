@@ -30,6 +30,27 @@ function Portfolio(){
                 </p>
                 <p className="portfolioe__card-readmore">Read more</p>
             </div>
+
+            <div className="portfolio__card">
+                <div className="portfolio__card-img tradedex"></div>
+                <p className="portfolio__card-skilltype">App Development</p>
+                <p className="portfolio__card-title">Tradedex 2.0</p>
+                <p className="portfolio__card-description">
+                    Tradedex is a tool for the AR game 'Pokémon Go' and is designed exclusively for trading and collecting purposes. Through a unique trading code,
+                    you are able to add friends to your contacts and share your list of Pokémon, which are still missing. 
+                </p>
+                <p className="portfolioe__card-readmore">Read more</p>
+            </div>
+
+            <div className="portfolio__card">
+                <div className="portfolio__card-img homepage"></div>
+                <p className="portfolio__card-skilltype">Web Development</p>
+                <p className="portfolio__card-title">Homepage</p>
+                <p className="portfolio__card-description">
+                    The homepage should complement the résumé and ... "WIP"
+                </p>
+                <p className="portfolioe__card-readmore">Read more</p>
+            </div>
         </div>
     )
 }
