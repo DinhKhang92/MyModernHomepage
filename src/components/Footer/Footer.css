@@ -1,0 +1,11 @@
+.footer__body{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer__copyright{
+    margin: 10px 25px;
+}
