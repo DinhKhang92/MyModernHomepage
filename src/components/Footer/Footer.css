@@ -9,3 +9,30 @@
 .footer__copyright{
     margin: 10px 25px;
 }
+
+.footer__icons{
+    display: flex;
+    margin: 10px 25px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer__icons li{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.footer__xing-icon{
+    background: url("./assets/xing2.svg");
+}
+
+.footer__linkedin-icon{
+    background: url("./assets/linkedin2.svg");
+}
+
+.footer__github-icon{
+    background: url("./assets/github2.svg");
+    margin-right: 0px !important;
+}
