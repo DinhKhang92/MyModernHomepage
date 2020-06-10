@@ -62,6 +62,15 @@
     margin: 15px 0;
 }
 
+.home__download-cv a{
+    text-decoration: none;
+    color: #111;
+}
+
+.home__download-cv a:visited{
+    color: #111;
+}
+
 .home__card1{
     width: 70%;
     height: auto;

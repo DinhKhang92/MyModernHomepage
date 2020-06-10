@@ -53,3 +53,35 @@
     left: 25px;
     color: #264653;
 }
+
+.sidedrawer__icons{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -30%);
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.sidedrawer__icons li{
+    margin: 10px 5px;
+}
+
+.sidedrawer__xing-icon{
+    width: 18px;
+    height: 18px;
+    background: url("../Footer/assets/xingwhite.svg");
+}
+
+.sidedrawer__linkedin-icon{
+    width: 18px;
+    height: 18px;
+    background: url("../Footer/assets/linkedinwhite.svg"); 
+}
+
+.sidedrawer__github-icon{
+    width: 18px;
+    height: 18px;
+    background: url("../Footer/assets/githubwhite.svg");
+}

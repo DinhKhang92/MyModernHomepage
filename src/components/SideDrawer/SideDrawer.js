@@ -24,6 +24,11 @@ function SideDrawer(props){
             <ul className="sidedrawer__menu-items">
                 {myMenuItems}
             </ul>
+            {/* <div className="sidedrawer__icons">
+                <a href="https://www.xing.com/profile/Khang_Dinh2/cv" target="_blank"><li className="sidedrawer__xing-icon"></li></a>
+                <a href="https://www.linkedin.com/in/khang-dinh-7790971a8/" target="_blank"><li className="sidedrawer__linkedin-icon"></li></a>
+                <a href="https://github.com/DinhKhang92" target="_blank"><li className="sidedrawer__github-icon"></li></a>
+            </div> */}
         </nav>
     )
 }
