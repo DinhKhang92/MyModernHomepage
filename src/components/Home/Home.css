@@ -71,7 +71,7 @@
     color: #111;
 }
 
-.home__card1{
+.home__card{
     width: 70%;
     height: auto;
     border: solid 2px rgba(150, 150, 150, 0.5);
@@ -115,4 +115,54 @@
     text-align: center;
     opacity: 0.8;
     margin: 5px 3px 15px 3px;
+}
+
+@media only screen and (min-width: 768px){
+    .home__bar{
+        width: 85px;
+        margin: 0 calc(15rem + 15px);
+        margin-top: 80px;
+    }
+
+    .home__my-name{
+        margin: 10px calc(15rem + 15px);
+        margin-bottom: 20px;
+    }
+
+    .home__cards{
+        display: flex;
+        margin: 0 calc(15rem + 15px);
+    }
+
+    .home__card{
+        margin: 40px 40px;
+    }
+
+    .home__body{
+        height: calc(100vh - 80px - 50px);
+    }
+    
+    .home__header{
+        width: calc(100% - 30rem - 30px);
+        margin: 0 auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home__profile-pic{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 0;
+        left: 0;
+        order: 2;
+    }
+
+    .home__header-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+    }
 }
