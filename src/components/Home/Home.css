@@ -1,23 +1,9 @@
-.home__body{
-    margin-top: 70px;
-    max-width: 100%;
-}
-
-.home__bar{
-    width: 20%;
-    height: 7px;
+.green-lg{
     background: linear-gradient(to right, #111, #2a9d8f);
-    margin: 0 25px;
-    margin-top: 80px;
 }
 
-.home__my-name{
-    font-weight: 700;
-    font-size: 16px;
+.green-font{
     color: #2a9d8f;
-    text-transform: uppercase;
-    margin: 10px 25px;
-    margin-bottom: 20px;
 }
 
 .home__profile-pic{
@@ -56,106 +42,46 @@
     border: solid 3px #2a9d8f;
     padding: 3px 10px;
     border-radius: 15px;
+    display: block;
     position: relative;
     left: 50%;
+    margin-top: 15px;
     transform: translateX(-50%);
-    margin: 15px 0;
-}
-
-.home__download-cv a{
+    transition: 0.3s;
     text-decoration: none;
     color: #111;
 }
 
-.home__download-cv a:visited{
-    color: #111;
-}
-
-.home__card{
-    width: 70%;
-    height: auto;
-    border: solid 2px rgba(150, 150, 150, 0.5);
-    border-radius: 20px;
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-top-color: #2a9d8f;
-    border-top-width: 3px;
-}
-
-.home__card-pentagon{
-    height: 60px;
-    width: 60px;
-    margin-top: 15px;
-}
-
-.autodidact{
-    background: url("./assets/hexagon-autodidact.svg");
-}
-
-.teamplayer{
-    background: url("./assets/hexagon-teamplayer.svg");
-}
-
-.quality{
-    background: url("./assets/hexagon-quality.svg");
-}
-
-.home__card-title{
-    margin-top: 13px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-.home__card-description{
-    font-size: 14px;
-    text-align: center;
-    opacity: 0.8;
-    margin: 5px 3px 15px 3px;
+.home__download-cv:hover{
+    background-color: #2a9d8f;
+    color: white;
 }
 
 @media only screen and (min-width: 768px){
-    .home__bar{
-        width: 85px;
-        margin: 0 calc(15rem + 15px);
-        margin-top: 80px;
+    .home__download-cv{
+        padding: 3px 20px;
+        margin-top: 20px;
     }
-
-    .home__my-name{
-        margin: 10px calc(15rem + 15px);
-        margin-bottom: 20px;
-    }
-
+    
     .home__cards{
         display: flex;
-        margin: 0 calc(15rem + 15px);
-    }
-
-    .home__card{
-        margin: 40px 40px;
-    }
-
-    .home__body{
-        height: calc(100vh - 80px - 50px);
+        margin: 0 calc(10% + 15px);
+        justify-content: space-evenly;
     }
     
     .home__header{
-        width: calc(100% - 30rem - 30px);
+        width: calc(80% - 30px);
         margin: 0 auto;
-        /* background-color: red; */
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .home__profile-pic{
-        width: 300px;
-        height: 300px;
-        position: relative;
-        top: 0;
+        min-width: 300px;
+        min-height: 300px;
         left: 0;
+        transform: translateX(0);
+        margin-bottom: 0;
         order: 2;
     }
 
@@ -163,6 +89,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        order: 1;
+        margin-left: 5%;
+        order: 3;
+    }
+
+    .home__grid-container{
+        display: grid;
+        grid-template-rows: auto auto;
+        height: calc(100% - 60px);
+        align-items: center;
     }
 }

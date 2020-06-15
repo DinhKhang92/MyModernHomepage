@@ -1,75 +1,21 @@
-.skills__body{
-    margin-top: 70px;
-    max-width: 100%;
-}
-
-.skills__bar{
-    width: 20%;
-    height: 7px;
+.red-lg{
     background: linear-gradient(to right, #111, #e76f51);
-    margin: 0 25px;
-    margin-top: 80px;
 }
 
-.skills__current-page{
-    font-weight: 700;
-    font-size: 18px;
+.red-font{
     color: #e76f51;
-    text-transform: uppercase;
-    margin: 10px 25px;
-    margin-bottom: 20px;
 }
 
-.skills__card{
-    width: 80%;
-    height: auto;
-    border: solid 2px rgba(150, 150, 150, 0.5);
-    border-radius: 20px;
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-top-color: #e76f51;
-    border-top-width: 3px;
-}
-
-.skills__card-icon{
-    width: 60px;
-    height: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 15px;
-}
-
-.web-development{
-    background: url("./assets/web-development.svg");
-}
-
-.app-development{
-    background: url("./assets/app-development.svg");
-}
-
-.desktop-applications{
-    background: url("./assets/desktop-applications.svg");
-}
-
-.machine-learning{
-    background: url("./assets/machine-learning.svg");
-}
-
-.skills__card-skills{
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.skills__card-skills li{
-    display: inline-block;
-    list-style: none;
-    margin: 5px 10px;
-    border: solid 2px #e76f51;
-    border-radius: 15px;
-    padding: 2px 8px; 
+@media only screen and (min-width: 768px){
+    .skills__cards{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        position: absolute;
+        top: calc(50% + 25px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

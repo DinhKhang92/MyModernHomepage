@@ -4,8 +4,50 @@
   box-sizing: border-box;
 }
 
+html{
+  overflow-y: scroll;
+}
+
 body{
   background-color: #faf9f9;
   color: #111;
   font-family: "Open Sans";
+}
+
+.content-body{
+  margin-top: 70px;
+  max-width: 100%;
+}
+
+.topbar{
+  width: 20%;
+  height: 7px;
+  margin: 0 25px;
+  margin-top: 80px;
+}
+
+.page-label{
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 25px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px){
+  .content-body{
+    height: calc(100vh - 80px - 60px);
+  }
+
+  .topbar{
+    width: 85px;
+    margin: 0 calc(10% + 15px);
+    margin-top: 80px;
+  }
+
+  .page-label{
+    font-size: 18px;
+    margin: 10px calc(10% + 15px);
+    margin-bottom: 20px;
+  }
 }

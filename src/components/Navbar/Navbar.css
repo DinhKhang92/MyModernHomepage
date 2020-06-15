@@ -9,7 +9,6 @@
     left: 0;
     z-index: 100;
     background-color: #faf9f9;
-    /* background-color: red; */
 }
 
 .navbar__menu-icon{
@@ -44,7 +43,7 @@
         width: 100%;
         display: flex;
         justify-content: start;
-        margin: 0 15rem;
+        margin: 0 10%;
     }
 
     .navbar__menu-items li{

@@ -1,0 +1,52 @@
+.contact-card{
+    width: calc(100% - 50px);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 25px;
+}
+
+.blue{
+    background-color: rgba(42, 157, 143, 0.4);
+}
+
+.yellow{
+    background-color: rgba(233, 196, 106, 0.4);
+}
+
+.red{
+    background-color: rgba(231, 111, 81, 0.4);
+}
+
+.mail-icon{
+    background: url("./assets/mail.svg");
+    width: 50px;
+    height: 50px;
+}
+
+.phone-icon{
+    background: url("./assets/phone.svg");
+    width: 70px;
+    height: 70px;
+}
+
+.gps-icon{
+    background: url("./assets/gps.svg");
+    width: 60px;
+    height: 60px;
+}
+
+.contact-card p{
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    .contact__card{
+        height: 250px;
+    }
+}

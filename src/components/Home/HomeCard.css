@@ -1,0 +1,54 @@
+.homecard{
+    width: 70%;
+    height: auto;
+    border: solid 2px rgba(150, 150, 150, 0.5);
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-color: #2a9d8f;
+    border-top-width: 3px;
+}
+
+
+.homecard-pentagon{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.autodidact{
+    background: url("./assets/hexagon-autodidact.svg");
+}
+
+.teamplayer{
+    background: url("./assets/hexagon-teamplayer.svg");
+}
+
+.quality{
+    background: url("./assets/hexagon-quality.svg");
+}
+
+.homecard-title{
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.homecard-description{
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.8;
+    margin: 5px 3px 15px 3px;
+}
+
+@media only screen and (min-width: 768px){
+    .homecard{
+        margin: 40px 40px;
+        width: 70%;
+        min-height: 200px;
+    }
+}

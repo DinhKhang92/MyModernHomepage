@@ -2,43 +2,34 @@ import React from "react"
 
 import "./Home.css"
 import CV from "./assets/Khang_Dinh_CV.pdf"
+import HomeCard from "./HomeCard"
+
+import homeCardData from "./data/homeCardData"
 
 class Home extends React.Component{
-    
-    downloadCvClickHandler = () => {
-        console.log("download")
-    }
-
     render(){
+
+        const homeCards = homeCardData.map(function(card){
+            return <HomeCard key={card.id} card={card}/>
+        })
+
         return(
-            <main className="home__body">
-                <div className="home__bar"></div>
-                <h3 className="home__my-name"> Hi, I'm Khang Dinh </h3>
-                <section className="home__header">
-                    <div className="home__profile-pic"></div>
-                    <div className="home__header-text">
-                        <h1 className="home__title">Software-Developer who loves challenges</h1>
-                        <h2 className="home__subtitle">With experience in machine learning, mobile-app development and web-development</h2>
-                        <div className="home__download-cv"><a href={CV} download>download CV</a></div>
-                    </div>
-                </section>
-                <section className="home__cards">
-                    <div className="home__card">
-                        <div className="home__card-pentagon autodidact"></div>
-                        <h3 className="home__card-title">Autodidact</h3>
-                        <p className="home__card-description">Working on various software projects in my off-time</p>
-                    </div>
-                    <div className="home__card">
-                        <div className="home__card-pentagon teamplayer"></div>
-                        <h3 className="home__card-title">teamplayer</h3>
-                        <p className="home__card-description">Listening and being part of a team is where I'm at</p>
-                    </div>
-                    <div className="home__card">
-                        <div className="home__card-pentagon quality"></div>
-                        <h3 className="home__card-title">quality</h3>
-                        <p className="home__card-description">Making sure that the high quality standards are always met</p>
-                    </div>
-                </section>
+            <main className="content-body">
+                <div className="topbar green-lg"></div>
+                <h3 className="page-label green-font"> Hi, I'm Khang Dinh </h3>
+                <div className="home__grid-container">
+                    <section className="home__header">
+                        <div className="home__profile-pic"></div>
+                        <div className="home__header-text">
+                            <h1 className="home__title">Software-Developer who loves challenges</h1>
+                            <h2 className="home__subtitle">With experience in machine learning, mobile-app development and web-development</h2>
+                            <a className="home__download-cv" href={CV} download>download CV</a>
+                        </div>
+                    </section>
+                    <section className="home__cards">
+                        {homeCards}
+                    </section>
+                </div>
             </main>
         )
     }

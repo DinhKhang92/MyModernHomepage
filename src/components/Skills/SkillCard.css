@@ -1,0 +1,53 @@
+.skillcard{
+    width: 80%;
+    height: auto;
+    border: solid 2px rgba(150, 150, 150, 0.5);
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-color: #e76f51;
+    border-top-width: 3px;
+}
+
+.skillcard-icon{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.web-development{
+    background: url("./assets/web-development.svg");
+}
+
+.app-development{
+    background: url("./assets/app-development.svg");
+}
+
+.desktop-applications{
+    background: url("./assets/desktop-applications.svg");
+}
+
+.machine-learning{
+    background: url("./assets/machine-learning.svg");
+}
+
+.skillcard-skills{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skillcard-skills li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+    border: solid 2px #e76f51;
+    border-radius: 15px;
+    padding: 2px 8px; 
+}
