@@ -15,7 +15,7 @@
         width: 80%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 30% 30% 30%;
         justify-content: center;
         gap: 0px;
         overflow: hidden;
